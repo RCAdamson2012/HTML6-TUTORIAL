@@ -53,6 +53,11 @@
          
          <table class="schedule">
             <caption>All Times Central</caption>
+            <colgroup>
+               <col id="first col" />
+               <col class="daycols" span="7"; />
+            </colgroup>
+            <thead>
             <tr>
                <th>Time</th>
                <th>Mon</th>
@@ -63,15 +68,21 @@
                <th>Sat</th> 
                <th>Sun</th>
             </tr>
+            </thead>
+            <tfoot>
+               <tr>
+                  <td colspan="8">DLR ends its broadcast day at 10:30 p.m.</td>
+               </tr>
+               </tfoot>
+               <tbody>
             <tr>
                <th>6:00 PM</th>
                <td colspan="7">National News</td> 
-               
-            </tr>
-            <tr>
+               </tr>
+               <tr>
                <th>6:30 PM</th>
                <td colspan="7">World News</td> 
-            </tr>  
+            </tr> 
             <tr>
                <th>7:00PM</th>
                <td rowspan="2">Opera Fest</td>
@@ -109,6 +120,7 @@
                <th>10:00 PM</th>
                <td colspan="7">World News Feed</td>
             </tr>
+            </tbody> 
          </table>
          
       </section>
